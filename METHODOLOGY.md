@@ -14,3 +14,10 @@
 - Preserve reports and results as produced. Do not add post-hoc interpretation
   or recalculate metrics after viewing them.
 - Raw market data and trade-block CSVs are excluded from this public archive.
+
+Strategy documentation:
+
+- [BTC Spot TSMOM V0](./strategies/btc-tsmom-v0/README.md)
+- [Multi-asset TSMOM V1](./strategies/multi-asset-tsmom-v1/README.md)
+- [Attempt ledger](./ledger.csv)
+- [Project data notes](./data_notes.md)
