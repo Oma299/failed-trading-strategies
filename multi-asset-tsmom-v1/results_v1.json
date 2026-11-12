@@ -1,0 +1,636 @@
+{
+  "block_exclusions": {
+    "AUDUSD": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 10,
+      "entry_no_row": 0,
+      "executable_dates": 4975,
+      "exit_empty_close": 12,
+      "exit_empty_open": 12,
+      "exit_no_row": 2,
+      "off_signal_dates": 1576,
+      "on_candidates": 3192,
+      "undefined_signal_dates": 222
+    },
+    "EEM": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 0,
+      "entry_no_row": 0,
+      "executable_dates": 5589,
+      "exit_empty_close": 0,
+      "exit_empty_open": 0,
+      "exit_no_row": 52,
+      "off_signal_dates": 3645,
+      "on_candidates": 1723,
+      "undefined_signal_dates": 221
+    },
+    "EFA": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 0,
+      "entry_no_row": 0,
+      "executable_dates": 5995,
+      "exit_empty_close": 0,
+      "exit_empty_open": 0,
+      "exit_no_row": 54,
+      "off_signal_dates": 3919,
+      "on_candidates": 1859,
+      "undefined_signal_dates": 217
+    },
+    "EURUSD": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 26,
+      "entry_no_row": 0,
+      "executable_dates": 5599,
+      "exit_empty_close": 15,
+      "exit_empty_open": 15,
+      "exit_no_row": 5,
+      "off_signal_dates": 1808,
+      "on_candidates": 3589,
+      "undefined_signal_dates": 234
+    },
+    "GBPUSD": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 12,
+      "entry_no_row": 0,
+      "executable_dates": 5611,
+      "exit_empty_close": 11,
+      "exit_empty_open": 11,
+      "exit_no_row": 2,
+      "off_signal_dates": 1812,
+      "on_candidates": 3596,
+      "undefined_signal_dates": 223
+    },
+    "GLD": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 0,
+      "entry_no_row": 0,
+      "executable_dates": 5185,
+      "exit_empty_close": 0,
+      "exit_empty_open": 0,
+      "exit_no_row": 52,
+      "off_signal_dates": 3272,
+      "on_candidates": 1692,
+      "undefined_signal_dates": 221
+    },
+    "SPY": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 0,
+      "entry_no_row": 0,
+      "executable_dates": 8160,
+      "exit_empty_close": 0,
+      "exit_empty_open": 0,
+      "exit_no_row": 84,
+      "off_signal_dates": 5308,
+      "on_candidates": 2632,
+      "undefined_signal_dates": 220
+    },
+    "TLT": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 0,
+      "entry_no_row": 0,
+      "executable_dates": 5767,
+      "exit_empty_close": 0,
+      "exit_empty_open": 0,
+      "exit_no_row": 70,
+      "off_signal_dates": 3645,
+      "on_candidates": 1901,
+      "undefined_signal_dates": 221
+    },
+    "USDCAD": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 13,
+      "entry_no_row": 0,
+      "executable_dates": 5667,
+      "exit_empty_close": 11,
+      "exit_empty_open": 11,
+      "exit_no_row": 3,
+      "off_signal_dates": 1868,
+      "on_candidates": 3594,
+      "undefined_signal_dates": 222
+    },
+    "USDCHF": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 15,
+      "entry_no_row": 0,
+      "executable_dates": 5665,
+      "exit_empty_close": 11,
+      "exit_empty_open": 11,
+      "exit_no_row": 3,
+      "off_signal_dates": 1820,
+      "on_candidates": 3642,
+      "undefined_signal_dates": 222
+    },
+    "USDJPY": {
+      "entry_empty_close": 0,
+      "entry_empty_open": 31,
+      "entry_no_row": 0,
+      "executable_dates": 7433,
+      "exit_empty_close": 17,
+      "exit_empty_open": 17,
+      "exit_no_row": 2,
+      "off_signal_dates": 2508,
+      "on_candidates": 4736,
+      "undefined_signal_dates": 235
+    }
+  },
+  "bootstrap": {
+    "block_weeks": 8,
+    "draws_requested": 10000,
+    "draws_valid": 10000,
+    "draws_without_on_blocks": 0,
+    "percentiles": {
+      "10": -0.000279536953965057,
+      "50": 6.75806823994544e-05,
+      "90": 0.0004215010155438912
+    },
+    "week_count": 1693
+  },
+  "config": {
+    "ABANDON_MIN_POSITIVE_ASSETS": 5,
+    "ABANDON_PLACEBO_P": 0.2,
+    "ASSETS": {
+      "AUDUSD": {
+        "filename": "AUDUSD.csv",
+        "kind": "FX",
+        "ticker": "AUDUSD=X",
+        "timezone": "Europe/London"
+      },
+      "EEM": {
+        "filename": "EEM.csv",
+        "kind": "ETF",
+        "ticker": "EEM",
+        "timezone": "America/New_York"
+      },
+      "EFA": {
+        "filename": "EFA.csv",
+        "kind": "ETF",
+        "ticker": "EFA",
+        "timezone": "America/New_York"
+      },
+      "EURUSD": {
+        "filename": "EURUSD.csv",
+        "kind": "FX",
+        "ticker": "EURUSD=X",
+        "timezone": "Europe/London"
+      },
+      "GBPUSD": {
+        "filename": "GBPUSD.csv",
+        "kind": "FX",
+        "ticker": "GBPUSD=X",
+        "timezone": "Europe/London"
+      },
+      "GLD": {
+        "filename": "GLD.csv",
+        "kind": "ETF",
+        "ticker": "GLD",
+        "timezone": "America/New_York"
+      },
+      "SPY": {
+        "filename": "SPY.csv",
+        "kind": "ETF",
+        "ticker": "SPY",
+        "timezone": "America/New_York"
+      },
+      "TLT": {
+        "filename": "TLT.csv",
+        "kind": "ETF",
+        "ticker": "TLT",
+        "timezone": "America/New_York"
+      },
+      "USDCAD": {
+        "filename": "USDCAD.csv",
+        "kind": "FX",
+        "ticker": "USDCAD=X",
+        "timezone": "Europe/London"
+      },
+      "USDCHF": {
+        "filename": "USDCHF.csv",
+        "kind": "FX",
+        "ticker": "USDCHF=X",
+        "timezone": "Europe/London"
+      },
+      "USDJPY": {
+        "filename": "USDJPY.csv",
+        "kind": "FX",
+        "ticker": "USDJPY=X",
+        "timezone": "Europe/London"
+      }
+    },
+    "BEST_BLOCK_FRACTION": 0.05,
+    "BOOTSTRAP_LOWER_PERCENTILE": 10,
+    "BOOT_BLOCK_WEEKS": 8,
+    "BOOT_DRAWS": 10000,
+    "CONTINUE_MIN_POSITIVE_ASSETS": 7,
+    "CONTINUE_PLACEBO_P": 0.1,
+    "CUTOFF_DATE": "2025-07-01",
+    "DATA_DIR": "data/v1",
+    "DATA_SHA256": {
+      "AUDUSD": "6CDD44D32A088D26F235E831DE3563DAE44BDCC7946570DF6E040F9AED419187",
+      "EEM": "5640C8B8BE33947645C9C5F351ED61AFF4D048721805A8138AC6964EFC07C8E9",
+      "EFA": "70336A43FEC27922652C7D2F55FCE3B1F1747EBF161C48144D0BE34E61165B18",
+      "EURUSD": "D2180F1780C3313CC240A1A4EDD27CAC68377FA2CB5C74E3F4C4488402DE76F3",
+      "GBPUSD": "A4FE7B87DE99ABB440A6F3795018D5927CE60104CE45C51691F7E29576F6228B",
+      "GLD": "B303DA7BA425C0ED2CBD76F0ACD4250C51AA644A49A4780C1AEAC513FB29BACF",
+      "SPY": "70B848AD0D869A2996BD3E50C99BC361A8D2163424206D222171C332073E4D6A",
+      "TLT": "8573D3A94BBBD40EEC9014B9B7AA50BCB3E4D00997C12AF9F3DC5DA27BDECD5E",
+      "USDCAD": "DE49C51E9D69AEFE33A385F12D12E55FD667D59500A466FFF2A4579ACB94DE62",
+      "USDCHF": "DD618D298856EFBDB184BBDD71DA10E9D406385851FCB6E231AC9F7D984CD2B7",
+      "USDJPY": "6C6B789CD4AA552EBDCCA5D7C56013D6046A08408F13427BFBD8234C67FA2206"
+    },
+    "ETF_ROUND_TRIP_COST": 0.0005,
+    "FX_ROUND_TRIP_COST": 0.0003,
+    "HOLD_DAYS": 7,
+    "LOOKBACK_DAYS": 28,
+    "MAX_BASE_GAP_DAYS": 4,
+    "MIN_ON_BLOCKS": 300,
+    "MIN_VALID_RANK_VALUES": 200,
+    "OUTPUT_BLOCKS": "blocks_v1.csv",
+    "OUTPUT_LEDGER": "ledger.csv",
+    "OUTPUT_MANIFEST": "run_manifest_v1.json",
+    "OUTPUT_REPORT": "report_v1.md",
+    "OUTPUT_RESULTS": "results_v1.json",
+    "PERIOD1": 0,
+    "PERIOD2": 1751320799,
+    "PLACEBO_DRAWS": 10000,
+    "PLACEBO_MIN_SHIFT_DAYS": 60,
+    "RANK_THRESHOLD": 0.6666666666666666,
+    "RANK_WINDOW": 365,
+    "SEED": 12345,
+    "SOURCE": "Yahoo Finance Chart API",
+    "STAGE": "V1",
+    "VARIANT_ID": "V1"
+  },
+  "config_hash": "3fb5b146990699854711e93452e08685b8aeeabf5b9c01c417ff49611144ecbb",
+  "data_diagnostics": {
+    "AUDUSD": {
+      "calendar_days": 6986,
+      "daily_bars": 4990,
+      "empty_close_rows": 15,
+      "empty_open_rows": 15,
+      "first_date": "2006-05-16",
+      "last_date": "2025-06-30",
+      "no_row_days": 1996,
+      "sha256": "6CDD44D32A088D26F235E831DE3563DAE44BDCC7946570DF6E040F9AED419187"
+    },
+    "EEM": {
+      "calendar_days": 8114,
+      "daily_bars": 5589,
+      "empty_close_rows": 0,
+      "empty_open_rows": 0,
+      "first_date": "2003-04-14",
+      "last_date": "2025-06-30",
+      "no_row_days": 2525,
+      "sha256": "5640C8B8BE33947645C9C5F351ED61AFF4D048721805A8138AC6964EFC07C8E9"
+    },
+    "EFA": {
+      "calendar_days": 8709,
+      "daily_bars": 5995,
+      "empty_close_rows": 0,
+      "empty_open_rows": 0,
+      "first_date": "2001-08-27",
+      "last_date": "2025-06-30",
+      "no_row_days": 2714,
+      "sha256": "70336A43FEC27922652C7D2F55FCE3B1F1747EBF161C48144D0BE34E61165B18"
+    },
+    "EURUSD": {
+      "calendar_days": 7883,
+      "daily_bars": 5631,
+      "empty_close_rows": 32,
+      "empty_open_rows": 32,
+      "first_date": "2003-12-01",
+      "last_date": "2025-06-30",
+      "no_row_days": 2252,
+      "sha256": "D2180F1780C3313CC240A1A4EDD27CAC68377FA2CB5C74E3F4C4488402DE76F3"
+    },
+    "GBPUSD": {
+      "calendar_days": 7883,
+      "daily_bars": 5631,
+      "empty_close_rows": 20,
+      "empty_open_rows": 20,
+      "first_date": "2003-12-01",
+      "last_date": "2025-06-30",
+      "no_row_days": 2252,
+      "sha256": "A4FE7B87DE99ABB440A6F3795018D5927CE60104CE45C51691F7E29576F6228B"
+    },
+    "GLD": {
+      "calendar_days": 7530,
+      "daily_bars": 5185,
+      "empty_close_rows": 0,
+      "empty_open_rows": 0,
+      "first_date": "2004-11-18",
+      "last_date": "2025-06-30",
+      "no_row_days": 2345,
+      "sha256": "B303DA7BA425C0ED2CBD76F0ACD4250C51AA644A49A4780C1AEAC513FB29BACF"
+    },
+    "SPY": {
+      "calendar_days": 11841,
+      "daily_bars": 8160,
+      "empty_close_rows": 0,
+      "empty_open_rows": 0,
+      "first_date": "1993-01-29",
+      "last_date": "2025-06-30",
+      "no_row_days": 3681,
+      "sha256": "70B848AD0D869A2996BD3E50C99BC361A8D2163424206D222171C332073E4D6A"
+    },
+    "TLT": {
+      "calendar_days": 8372,
+      "daily_bars": 5767,
+      "empty_close_rows": 0,
+      "empty_open_rows": 0,
+      "first_date": "2002-07-30",
+      "last_date": "2025-06-30",
+      "no_row_days": 2605,
+      "sha256": "8573D3A94BBBD40EEC9014B9B7AA50BCB3E4D00997C12AF9F3DC5DA27BDECD5E"
+    },
+    "USDCAD": {
+      "calendar_days": 7958,
+      "daily_bars": 5684,
+      "empty_close_rows": 17,
+      "empty_open_rows": 17,
+      "first_date": "2003-09-17",
+      "last_date": "2025-06-30",
+      "no_row_days": 2274,
+      "sha256": "DE49C51E9D69AEFE33A385F12D12E55FD667D59500A466FFF2A4579ACB94DE62"
+    },
+    "USDCHF": {
+      "calendar_days": 7958,
+      "daily_bars": 5684,
+      "empty_close_rows": 19,
+      "empty_open_rows": 19,
+      "first_date": "2003-09-17",
+      "last_date": "2025-06-30",
+      "no_row_days": 2274,
+      "sha256": "DD618D298856EFBDB184BBDD71DA10E9D406385851FCB6E231AC9F7D984CD2B7"
+    },
+    "USDJPY": {
+      "calendar_days": 10471,
+      "daily_bars": 7479,
+      "empty_close_rows": 46,
+      "empty_open_rows": 46,
+      "first_date": "1996-10-30",
+      "last_date": "2025-06-30",
+      "no_row_days": 2992,
+      "sha256": "6C6B789CD4AA552EBDCCA5D7C56013D6046A08408F13427BFBD8234C67FA2206"
+    }
+  },
+  "data_hash": "012626a9e69068efa2a7cc3a8e89631227b9fa5217157d8d2f789e760beb0c5f",
+  "data_sha256": {
+    "AUDUSD": "6CDD44D32A088D26F235E831DE3563DAE44BDCC7946570DF6E040F9AED419187",
+    "EEM": "5640C8B8BE33947645C9C5F351ED61AFF4D048721805A8138AC6964EFC07C8E9",
+    "EFA": "70336A43FEC27922652C7D2F55FCE3B1F1747EBF161C48144D0BE34E61165B18",
+    "EURUSD": "D2180F1780C3313CC240A1A4EDD27CAC68377FA2CB5C74E3F4C4488402DE76F3",
+    "GBPUSD": "A4FE7B87DE99ABB440A6F3795018D5927CE60104CE45C51691F7E29576F6228B",
+    "GLD": "B303DA7BA425C0ED2CBD76F0ACD4250C51AA644A49A4780C1AEAC513FB29BACF",
+    "SPY": "70B848AD0D869A2996BD3E50C99BC361A8D2163424206D222171C332073E4D6A",
+    "TLT": "8573D3A94BBBD40EEC9014B9B7AA50BCB3E4D00997C12AF9F3DC5DA27BDECD5E",
+    "USDCAD": "DE49C51E9D69AEFE33A385F12D12E55FD667D59500A466FFF2A4579ACB94DE62",
+    "USDCHF": "DD618D298856EFBDB184BBDD71DA10E9D406385851FCB6E231AC9F7D984CD2B7",
+    "USDJPY": "6C6B789CD4AA552EBDCCA5D7C56013D6046A08408F13427BFBD8234C67FA2206"
+  },
+  "git_dirty": true,
+  "git_hash": "4817862357393567909a9ed3f322ef840e09fd71",
+  "metrics": {
+    "bootstrap": {
+      "block_weeks": 8,
+      "draws_requested": 10000,
+      "draws_valid": 10000,
+      "draws_without_on_blocks": 0,
+      "percentiles": {
+        "10": -0.000279536953965057,
+        "50": 6.75806823994544e-05,
+        "90": 0.0004215010155438912
+      },
+      "week_count": 1693
+    },
+    "decision": "ABANDON",
+    "on_block_count": 31643,
+    "placebo": {
+      "draws_requested": 10000,
+      "draws_with_on_blocks": 10000,
+      "draws_without_on_blocks": 0,
+      "exceed_count": 4615,
+      "n_min_calendar_days": 11841,
+      "observed_t": 7.700151109547804e-05,
+      "p_value": 0.46155384461553844,
+      "shift_days_max": 11781,
+      "shift_days_min": 60
+    },
+    "pooled_t": 7.700151109547804e-05,
+    "positive_asset_count": 7,
+    "robustness": {
+      "leave_one_year_out": {
+        "1993": 7.774916469269892e-05,
+        "1994": 8.073927446354914e-05,
+        "1995": 6.458948976430603e-05,
+        "1996": 7.000506259063622e-05,
+        "1997": 6.300921439416275e-05,
+        "1998": 5.738475577202488e-05,
+        "1999": 9.585583889247996e-05,
+        "2000": 9.38591316443045e-05,
+        "2001": 6.421470034309429e-05,
+        "2002": 9.406420175794389e-05,
+        "2003": 5.3631482540931334e-05,
+        "2004": 4.581809476633206e-05,
+        "2005": 5.013669654668595e-05,
+        "2006": 7.968855696998104e-05,
+        "2007": 1.326318120300393e-06,
+        "2008": 7.186453571024546e-06,
+        "2009": 3.3344737425046175e-05,
+        "2010": 6.537318605764401e-05,
+        "2011": 0.00013660217146647542,
+        "2012": 1.8407461111628398e-05,
+        "2013": 0.00015400717608270444,
+        "2014": 6.951912758241887e-05,
+        "2015": 0.00019818932715183978,
+        "2016": 0.00011057063380524722,
+        "2017": 0.00010780923544402761,
+        "2018": 9.526093921002252e-05,
+        "2019": 8.100334302256396e-05,
+        "2020": 4.2535748635274586e-05,
+        "2021": 9.520897689313732e-05,
+        "2022": 0.00013823284313427798,
+        "2023": 5.5223615961523266e-05,
+        "2024": 9.912683320024033e-05,
+        "2025": 4.450102976708556e-05
+      },
+      "removed_best_block_count": 1583,
+      "top_5_percent_removed_t": -0.002006919331556534
+    },
+    "t_asset": {
+      "AUDUSD": 0.00023703890580747703,
+      "EEM": 0.0003045693633113264,
+      "EFA": 0.0008583651460883157,
+      "EURUSD": 0.0002984165197366698,
+      "GBPUSD": -0.0003738535191936367,
+      "GLD": 0.0007311629858287097,
+      "SPY": 0.0010281788031602233,
+      "TLT": 0.0001118396201090887,
+      "USDCAD": -0.00034115403033850995,
+      "USDCHF": -0.00023290030260416427,
+      "USDJPY": -0.00043965935921421714
+    }
+  },
+  "placebo": {
+    "draws_requested": 10000,
+    "draws_with_on_blocks": 10000,
+    "draws_without_on_blocks": 0,
+    "exceed_count": 4615,
+    "n_min_calendar_days": 11841,
+    "observed_t": 7.700151109547804e-05,
+    "p_value": 0.46155384461553844,
+    "shift_days_max": 11781,
+    "shift_days_min": 60
+  },
+  "run_id": "e9785631-b513-4883-9434-ec32db121dce",
+  "signal_diagnostics": {
+    "AUDUSD": {
+      "off": 1576,
+      "on_long": 1552,
+      "on_short": 1640,
+      "signal_defined": 4768,
+      "signal_undefined": 222,
+      "source_rows": 4990,
+      "undefined_reasons": {
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "EEM": {
+      "off": 3645,
+      "on_long": 1723,
+      "on_short": 0,
+      "signal_defined": 5368,
+      "signal_undefined": 221,
+      "source_rows": 5589,
+      "undefined_reasons": {
+        "no_base_close": 19,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "EFA": {
+      "off": 3919,
+      "on_long": 1859,
+      "on_short": 0,
+      "signal_defined": 5778,
+      "signal_undefined": 217,
+      "source_rows": 5995,
+      "undefined_reasons": {
+        "no_base_close": 15,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "EURUSD": {
+      "off": 1808,
+      "on_long": 1752,
+      "on_short": 1837,
+      "signal_defined": 5397,
+      "signal_undefined": 234,
+      "source_rows": 5631,
+      "undefined_reasons": {
+        "base_gap_over_4_days": 12,
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "GBPUSD": {
+      "off": 1812,
+      "on_long": 1769,
+      "on_short": 1827,
+      "signal_defined": 5408,
+      "signal_undefined": 223,
+      "source_rows": 5631,
+      "undefined_reasons": {
+        "base_gap_over_4_days": 1,
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "GLD": {
+      "off": 3272,
+      "on_long": 1692,
+      "on_short": 0,
+      "signal_defined": 4964,
+      "signal_undefined": 221,
+      "source_rows": 5185,
+      "undefined_reasons": {
+        "no_base_close": 19,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "SPY": {
+      "off": 5308,
+      "on_long": 2632,
+      "on_short": 0,
+      "signal_defined": 7940,
+      "signal_undefined": 220,
+      "source_rows": 8160,
+      "undefined_reasons": {
+        "no_base_close": 19,
+        "no_ref_close": 1,
+        "rank_history_below_200": 200
+      }
+    },
+    "TLT": {
+      "off": 3645,
+      "on_long": 1901,
+      "on_short": 0,
+      "signal_defined": 5546,
+      "signal_undefined": 221,
+      "source_rows": 5767,
+      "undefined_reasons": {
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 200
+      }
+    },
+    "USDCAD": {
+      "off": 1868,
+      "on_long": 1836,
+      "on_short": 1758,
+      "signal_defined": 5462,
+      "signal_undefined": 222,
+      "source_rows": 5684,
+      "undefined_reasons": {
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "USDCHF": {
+      "off": 1820,
+      "on_long": 1803,
+      "on_short": 1839,
+      "signal_defined": 5462,
+      "signal_undefined": 222,
+      "source_rows": 5684,
+      "undefined_reasons": {
+        "no_base_close": 20,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    },
+    "USDJPY": {
+      "off": 2508,
+      "on_long": 2373,
+      "on_short": 2363,
+      "signal_defined": 7244,
+      "signal_undefined": 235,
+      "source_rows": 7479,
+      "undefined_reasons": {
+        "base_gap_over_4_days": 12,
+        "no_base_close": 21,
+        "no_ref_close": 1,
+        "rank_history_below_200": 201
+      }
+    }
+  },
+  "stage": "V1",
+  "timestamp": "2026-11-12T20:23:17.507410+00:00",
+  "variant_id": "V1"
+}
