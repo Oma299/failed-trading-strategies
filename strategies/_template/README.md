@@ -33,3 +33,6 @@ and command order. Do not bundle market data.
 ## 8. File List
 
 List the archived code, tests, configuration, reports, and results.
+
+Archive references: [lessons](../../docs/LESSONS.md),
+[glossary](../../docs/GLOSSARY.md), and [timeline](../../docs/TIMELINE.md).

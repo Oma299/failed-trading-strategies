@@ -92,3 +92,6 @@ recreate the research Parquet from newly downloaded market data.
 
 `blocks*.csv` and `data/` are not included because they contain market prices.
 Reproduction requires downloading the data again within the closed cutoff.
+
+Reference: [lessons](../../docs/LESSONS.md), [glossary](../../docs/GLOSSARY.md),
+and [timeline](../../docs/TIMELINE.md).

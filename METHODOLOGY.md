@@ -21,3 +21,6 @@ Strategy documentation:
 - [Multi-asset TSMOM V1](./strategies/multi-asset-tsmom-v1/README.md)
 - [Attempt ledger](./ledger.csv)
 - [Project data notes](./data_notes.md)
+- [Lessons](./docs/LESSONS.md)
+- [Glossary](./docs/GLOSSARY.md)
+- [Timeline](./docs/TIMELINE.md)

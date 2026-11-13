@@ -18,3 +18,6 @@
   from the decision.
 - **Profit factor:** Gross profitable trade result divided by gross losing
   trade result.
+
+Related references: [lessons](./LESSONS.md), [timeline](./TIMELINE.md), and
+[methodology](../METHODOLOGY.md).

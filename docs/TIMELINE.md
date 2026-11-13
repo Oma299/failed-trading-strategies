@@ -14,3 +14,6 @@ The entries below follow the shared [ledger](../ledger.csv) and
 - 2026-11-12 20:18 — First V1 attempt recorded `INSUFFICIENT_DATA`; ledger notes
   mark the all-undefined signal run `INVALID`. Project notes record `K=2`.
 - 2026-11-12 20:23 — V1 rerun recorded `ABANDON`.
+
+Related references: [lessons](./LESSONS.md), [glossary](./GLOSSARY.md), and
+[methodology](../METHODOLOGY.md).
