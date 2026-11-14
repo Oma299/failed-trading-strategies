@@ -1,0 +1,20 @@
+{
+  "scenario": "FEE_ONLY",
+  "status": "OK",
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "exit_reasons": "{}",
+  "return_nav_pct": "-0.11938944250000",
+  "realized_pnl_usdt": "0",
+  "terminal_status": "RIGHT_CENSORED",
+  "terminal_btc": "0.398825",
+  "profit_factor": "",
+  "mean_trade_r": "",
+  "median_hold_hours": "",
+  "max_daily_drawdown_usdt": "11.93894425000000",
+  "entry_count": 1,
+  "cancel_count": 0,
+  "commission_buy_btc": "0",
+  "commission_sell_usdt": "0"
+}

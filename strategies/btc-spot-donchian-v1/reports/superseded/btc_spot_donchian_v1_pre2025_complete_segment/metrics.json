@@ -1,0 +1,600 @@
+{
+  "strategy": "BTC_SPOT_DONCHIAN_V1",
+  "period": {
+    "start": "2023-03-25T00:00:00",
+    "end": "2025-01-01T00:00:00"
+  },
+  "data_quality": {
+    "minute_count": 4131199,
+    "minute_start": "2017-08-17T04:00:00Z",
+    "minute_end": "2025-06-30T23:59:00Z",
+    "duplicate_adjacent_count": 0,
+    "out_of_order_count": 0,
+    "missing_minute_count": 8563,
+    "missing_minutes_sample": [
+      "2017-09-06T16:00:00Z",
+      "2017-09-06T16:01:00Z",
+      "2017-09-06T16:02:00Z",
+      "2017-09-06T16:03:00Z",
+      "2017-09-06T16:04:00Z",
+      "2017-09-06T16:05:00Z",
+      "2017-09-06T16:06:00Z",
+      "2017-09-06T16:07:00Z",
+      "2017-09-06T16:08:00Z",
+      "2017-09-06T16:09:00Z",
+      "2017-09-06T16:10:00Z",
+      "2017-09-06T16:11:00Z",
+      "2017-09-06T16:12:00Z",
+      "2017-09-06T16:13:00Z",
+      "2017-09-06T16:14:00Z",
+      "2017-09-06T16:15:00Z",
+      "2017-09-06T16:16:00Z",
+      "2017-09-06T16:17:00Z",
+      "2017-09-06T16:18:00Z",
+      "2017-09-06T16:19:00Z"
+    ],
+    "daily_count": 2875,
+    "incomplete_utc_days": [
+      "2017-08-17",
+      "2017-09-06",
+      "2017-12-04",
+      "2017-12-05",
+      "2017-12-06",
+      "2017-12-07",
+      "2017-12-08",
+      "2017-12-09",
+      "2017-12-10",
+      "2017-12-11",
+      "2017-12-12",
+      "2017-12-13",
+      "2017-12-14",
+      "2017-12-15",
+      "2017-12-16",
+      "2017-12-17",
+      "2017-12-18",
+      "2018-01-04",
+      "2018-02-08",
+      "2018-02-09",
+      "2018-02-10",
+      "2018-02-11",
+      "2018-06-26",
+      "2018-06-27",
+      "2018-07-04",
+      "2018-10-19",
+      "2018-11-14",
+      "2019-03-12",
+      "2019-05-15",
+      "2019-06-07",
+      "2019-08-15",
+      "2019-11-13",
+      "2019-11-25",
+      "2020-02-09",
+      "2020-02-19",
+      "2020-03-04",
+      "2020-04-25",
+      "2020-06-28",
+      "2020-11-30",
+      "2020-12-21",
+      "2020-12-25",
+      "2021-02-11",
+      "2021-03-06",
+      "2021-04-20",
+      "2021-04-25",
+      "2021-08-13",
+      "2021-09-29",
+      "2023-03-24"
+    ],
+    "first_full_day": "2017-08-18",
+    "last_full_day": "2025-06-30"
+  },
+  "scenarios": [
+    {
+      "scenario": "DIAGNOSTIC_ZERO",
+      "trades": 9,
+      "signals": 9,
+      "wins": 4,
+      "losses": 5,
+      "win_rate": "0.4444444444444444444444444444444444444444",
+      "mean_net_pnl_usdt": "84.64891231555555555555555555555555555556",
+      "sum_net_pnl_usdt": "761.84021084000000",
+      "profit_factor": "6.107665955829234289623130565462626578477",
+      "return_pct": "7.61840210840000",
+      "final_equity_usdt": "10761.84021084000000",
+      "max_drawdown_usdt": "361.18945614000000",
+      "max_daily_drawdown_usdt": "329.74782776000000",
+      "time_in_market_fraction": "0.4911029663923182441700960219478737997257",
+      "mean_r": "1.661003552343427633298779779627758964991",
+      "sum_r": "14.94903197109084869968901801664983068492",
+      "commission_buy_usdt_equivalent": "0E-14",
+      "commission_sell_usdt": "0E-14",
+      "exit_reasons": {
+        "END_OF_TEST": 1,
+        "LOWER_CHANNEL_EXIT": 6,
+        "STOP": 2
+      },
+      "cancel_reasons": {
+        "B_FALSE": 302,
+        "INSUFFICIENT_DAILY_HISTORY": 20,
+        "POSITION_OPEN": 317
+      },
+      "monthly_mark_to_market": {
+        "2023-03": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-04": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-05": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-06": {
+          "month_end_equity_usdt": "10057.70694370000000",
+          "month_end_cash_usdt": "9246.23758370000000",
+          "month_end_btc": "0.026630"
+        },
+        "2023-07": {
+          "month_end_equity_usdt": "10023.08794370000000",
+          "month_end_cash_usdt": "10023.08794370000000",
+          "month_end_btc": "0.000000"
+        },
+        "2023-08": {
+          "month_end_equity_usdt": "10023.08794370000000",
+          "month_end_cash_usdt": "10023.08794370000000",
+          "month_end_btc": "0.000000"
+        },
+        "2023-09": {
+          "month_end_equity_usdt": "10023.08794370000000",
+          "month_end_cash_usdt": "10023.08794370000000",
+          "month_end_btc": "0.000000"
+        },
+        "2023-10": {
+          "month_end_equity_usdt": "10011.29733866000000",
+          "month_end_cash_usdt": "9151.81536542000000",
+          "month_end_btc": "0.024812"
+        },
+        "2023-11": {
+          "month_end_equity_usdt": "10087.82226094000000",
+          "month_end_cash_usdt": "9151.81536542000000",
+          "month_end_btc": "0.024812"
+        },
+        "2023-12": {
+          "month_end_equity_usdt": "10200.95555238000000",
+          "month_end_cash_usdt": "9151.81536542000000",
+          "month_end_btc": "0.024812"
+        },
+        "2024-01": {
+          "month_end_equity_usdt": "10175.92793610000000",
+          "month_end_cash_usdt": "10175.92793610000000",
+          "month_end_btc": "0.000000"
+        },
+        "2024-02": {
+          "month_end_equity_usdt": "10516.80997090000000",
+          "month_end_cash_usdt": "9271.81643222000000",
+          "month_end_btc": "0.020366"
+        },
+        "2024-03": {
+          "month_end_equity_usdt": "10534.71209222000000",
+          "month_end_cash_usdt": "10534.71209222000000",
+          "month_end_btc": "0.000000"
+        },
+        "2024-04": {
+          "month_end_equity_usdt": "10534.71209222000000",
+          "month_end_cash_usdt": "10534.71209222000000",
+          "month_end_btc": "0.000000"
+        },
+        "2024-05": {
+          "month_end_equity_usdt": "10547.26543622000000",
+          "month_end_cash_usdt": "9885.91365830000000",
+          "month_end_btc": "0.009792"
+        },
+        "2024-06": {
+          "month_end_equity_usdt": "10532.85161222000000",
+          "month_end_cash_usdt": "10532.85161222000000",
+          "month_end_btc": "0.000000"
+        },
+        "2024-07": {
+          "month_end_equity_usdt": "10531.71624404000000",
+          "month_end_cash_usdt": "9839.61499204000000",
+          "month_end_btc": "0.010709"
+        },
+        "2024-08": {
+          "month_end_equity_usdt": "10459.17126495000000",
+          "month_end_cash_usdt": "10003.47924422000000",
+          "month_end_btc": "0.007727"
+        },
+        "2024-09": {
+          "month_end_equity_usdt": "10464.75968778000000",
+          "month_end_cash_usdt": "9727.43655741000000",
+          "month_end_btc": "0.011643"
+        },
+        "2024-10": {
+          "month_end_equity_usdt": "10474.87211484000000",
+          "month_end_cash_usdt": "9609.43688772000000",
+          "month_end_btc": "0.012312"
+        },
+        "2024-11": {
+          "month_end_equity_usdt": "10796.41206060000000",
+          "month_end_cash_usdt": "9609.43688772000000",
+          "month_end_btc": "0.012312"
+        },
+        "2024-12": {
+          "month_end_equity_usdt": "10761.54459972000000",
+          "month_end_cash_usdt": "9609.43688772000000",
+          "month_end_btc": "0.012312"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2023": {
+          "year_end_equity_usdt": "10200.95555238000000",
+          "year_end_cash_usdt": "9151.81536542000000",
+          "year_end_btc": "0.024812",
+          "max_daily_drawdown_usdt": "110.89050890000000"
+        },
+        "2024": {
+          "year_end_equity_usdt": "10761.54459972000000",
+          "year_end_cash_usdt": "9609.43688772000000",
+          "year_end_btc": "0.012312",
+          "max_daily_drawdown_usdt": "329.74782776000000"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "DIAGNOSTIC_ZERO",
+        "quote_buy": "9900.00",
+        "btc_received": "0.3605844089857634719252257203766249517855",
+        "sell_fill": "93600.01000000",
+        "final_cash": "33850.70428691155082983584667950929925337",
+        "net_pnl_usdt": "23850.70428691155082983584667950929925337",
+        "return_pct": "238.5070428691155082983584667950929925337"
+      }
+    },
+    {
+      "scenario": "BASE",
+      "trades": 9,
+      "signals": 9,
+      "wins": 4,
+      "losses": 5,
+      "win_rate": "0.4444444444444444444444444444444444444444",
+      "mean_net_pnl_usdt": "78.97158889867084061277777777777777777778",
+      "sum_net_pnl_usdt": "710.744300088037565515000000",
+      "profit_factor": "5.662085008623326257517327167452507259013",
+      "return_pct": "7.107443000880375655150000",
+      "final_equity_usdt": "10710.744300088037565515000000",
+      "max_drawdown_usdt": "355.566401559832656820000000",
+      "max_daily_drawdown_usdt": "325.469682555682656820000000",
+      "time_in_market_fraction": "0.4911029663923182441700960219478737997257",
+      "mean_r": "1.552528645969457476873599482642284524716",
+      "sum_r": "13.97275781372511729186239534378056072244",
+      "commission_buy_usdt_equivalent": "6.702671737831811000000",
+      "commission_sell_usdt": "7.420837101228919485000000",
+      "exit_reasons": {
+        "END_OF_TEST": 1,
+        "LOWER_CHANNEL_EXIT": 6,
+        "STOP": 2
+      },
+      "cancel_reasons": {
+        "B_FALSE": 302,
+        "INSUFFICIENT_DAILY_HISTORY": 20,
+        "POSITION_OPEN": 317
+      },
+      "monthly_mark_to_market": {
+        "2023-03": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-04": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-05": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-06": {
+          "month_end_equity_usdt": "10054.654104522451000000",
+          "month_end_cash_usdt": "9272.824340898451000000",
+          "month_end_btc": "0.025657317"
+        },
+        "2023-07": {
+          "month_end_equity_usdt": "10020.326799138045257200000000",
+          "month_end_cash_usdt": "10020.326799138045257200000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-08": {
+          "month_end_equity_usdt": "10020.326799138045257200000000",
+          "month_end_cash_usdt": "10020.326799138045257200000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-09": {
+          "month_end_equity_usdt": "10020.326799138045257200000000",
+          "month_end_cash_usdt": "10020.326799138045257200000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-10": {
+          "month_end_equity_usdt": "10005.984019571532520584000000",
+          "month_end_cash_usdt": "9181.032320018562520584000000",
+          "month_end_btc": "0.023815161"
+        },
+        "2023-11": {
+          "month_end_equity_usdt": "10079.434500976122520584000000",
+          "month_end_cash_usdt": "9181.032320018562520584000000",
+          "month_end_btc": "0.023815161"
+        },
+        "2023-12": {
+          "month_end_equity_usdt": "10188.022585374942520584000000",
+          "month_end_cash_usdt": "9181.032320018562520584000000",
+          "month_end_btc": "0.023815161"
+        },
+        "2024-01": {
+          "month_end_equity_usdt": "10162.722906920508225771000000",
+          "month_end_cash_usdt": "10162.722906920508225771000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-02": {
+          "month_end_equity_usdt": "10487.408302441518225771000000",
+          "month_end_cash_usdt": "9297.462294286818225771000000",
+          "month_end_btc": "0.019465515"
+        },
+        "2024-03": {
+          "month_end_equity_usdt": "10502.950067993098770771000000",
+          "month_end_cash_usdt": "10502.950067993098770771000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-04": {
+          "month_end_equity_usdt": "10502.950067993098770771000000",
+          "month_end_cash_usdt": "10502.950067993098770771000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-05": {
+          "month_end_equity_usdt": "10514.274710917858770771000000",
+          "month_end_cash_usdt": "9874.635695412658770771000000",
+          "month_end_btc": "0.009470520"
+        },
+        "2024-06": {
+          "month_end_equity_usdt": "10499.520885254297030331000000",
+          "month_end_cash_usdt": "10499.520885254297030331000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-07": {
+          "month_end_equity_usdt": "10497.554629663227030331000000",
+          "month_end_cash_usdt": "9829.646546323227030331000000",
+          "month_end_btc": "0.010334655"
+        },
+        "2024-08": {
+          "month_end_equity_usdt": "10425.730935261944358366000000",
+          "month_end_cash_usdt": "9981.806289626594358366000000",
+          "month_end_btc": "0.007527465"
+        },
+        "2024-09": {
+          "month_end_equity_usdt": "10429.515752497522482681000000",
+          "month_end_cash_usdt": "9719.058085633222482681000000",
+          "month_end_btc": "0.011218770"
+        },
+        "2024-10": {
+          "month_end_equity_usdt": "10437.141033863965568951000000",
+          "month_end_cash_usdt": "9607.682100966085568951000000",
+          "month_end_btc": "0.011800188"
+        },
+        "2024-11": {
+          "month_end_equity_usdt": "10745.314507668205568951000000",
+          "month_end_cash_usdt": "9607.682100966085568951000000",
+          "month_end_btc": "0.011800188"
+        },
+        "2024-12": {
+          "month_end_equity_usdt": "10711.896493254085568951000000",
+          "month_end_cash_usdt": "9607.682100966085568951000000",
+          "month_end_btc": "0.011800188"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2023": {
+          "year_end_equity_usdt": "10188.022585374942520584000000",
+          "year_end_cash_usdt": "9181.032320018562520584000000",
+          "year_end_btc": "0.023815161",
+          "max_daily_drawdown_usdt": "109.630249700475479416000000"
+        },
+        "2024": {
+          "year_end_equity_usdt": "10711.896493254085568951000000",
+          "year_end_cash_usdt": "9607.682100966085568951000000",
+          "year_end_btc": "0.011800188",
+          "max_daily_drawdown_usdt": "325.469682555682656820000000"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "BASE",
+        "quote_buy": "9900.00",
+        "btc_received": "0.3601157898398257607250829697653187312143",
+        "sell_fill": "93571.929997000000",
+        "final_cash": "33763.03274822883338531949087328837456374",
+        "net_pnl_usdt": "23763.03274822883338531949087328837456374",
+        "return_pct": "237.6303274822883338531949087328837456374"
+      }
+    },
+    {
+      "scenario": "STRESS",
+      "trades": 9,
+      "signals": 9,
+      "wins": 4,
+      "losses": 5,
+      "win_rate": "0.4444444444444444444444444444444444444444",
+      "mean_net_pnl_usdt": "76.10367223819061623111111111111111111111",
+      "sum_net_pnl_usdt": "684.933050143715546080000000",
+      "profit_factor": "5.443767293519244781666666052960450722839",
+      "return_pct": "6.849330501437155460800000",
+      "final_equity_usdt": "10684.933050143715546080000000",
+      "max_drawdown_usdt": "352.754083909844761040000000",
+      "max_daily_drawdown_usdt": "323.336084876324761040000000",
+      "time_in_market_fraction": "0.4911029663923182441700960219478737997257",
+      "mean_r": "1.497589869080081846877106582476616666136",
+      "sum_r": "13.47830882172073662189395924228954999522",
+      "commission_buy_usdt_equivalent": "6.566215916119860000000",
+      "commission_sell_usdt": "7.258407594438373920000000",
+      "exit_reasons": {
+        "END_OF_TEST": 1,
+        "LOWER_CHANNEL_EXIT": 6,
+        "STOP": 2
+      },
+      "cancel_reasons": {
+        "B_FALSE": 302,
+        "INSUFFICIENT_DAILY_HISTORY": 20,
+        "POSITION_OPEN": 317
+      },
+      "monthly_mark_to_market": {
+        "2023-03": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-04": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-05": {
+          "month_end_equity_usdt": "10000.00000000",
+          "month_end_cash_usdt": "10000",
+          "month_end_btc": "0"
+        },
+        "2023-06": {
+          "month_end_equity_usdt": "10053.099560579130000000",
+          "month_end_cash_usdt": "9286.368794843130000000",
+          "month_end_btc": "0.025161813"
+        },
+        "2023-07": {
+          "month_end_equity_usdt": "10018.921896881866836000000000",
+          "month_end_cash_usdt": "10018.921896881866836000000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-08": {
+          "month_end_equity_usdt": "10018.921896881866836000000000",
+          "month_end_cash_usdt": "10018.921896881866836000000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-09": {
+          "month_end_equity_usdt": "10018.921896881866836000000000",
+          "month_end_cash_usdt": "10018.921896881866836000000000",
+          "month_end_btc": "0E-9"
+        },
+        "2023-10": {
+          "month_end_equity_usdt": "10003.290527241059740800000000",
+          "month_end_cash_usdt": "9195.779813324009740800000000",
+          "month_end_btc": "0.023311665"
+        },
+        "2023-11": {
+          "month_end_equity_usdt": "10075.188131317409740800000000",
+          "month_end_cash_usdt": "9195.779813324009740800000000",
+          "month_end_btc": "0.023311665"
+        },
+        "2023-12": {
+          "month_end_equity_usdt": "10181.480465284709740800000000",
+          "month_end_cash_usdt": "9195.779813324009740800000000",
+          "month_end_btc": "0.023311665"
+        },
+        "2024-01": {
+          "month_end_equity_usdt": "10156.042811285084632650000000",
+          "month_end_cash_usdt": "10156.042811285084632650000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-02": {
+          "month_end_equity_usdt": "10472.571652796124632650000000",
+          "month_end_cash_usdt": "9310.351356096504632650000000",
+          "month_end_btc": "0.019011969"
+        },
+        "2024-03": {
+          "month_end_equity_usdt": "10486.926868323322322650000000",
+          "month_end_cash_usdt": "10486.926868323322322650000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-04": {
+          "month_end_equity_usdt": "10486.926868323322322650000000",
+          "month_end_cash_usdt": "10486.926868323322322650000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-05": {
+          "month_end_equity_usdt": "10497.623517969002322650000000",
+          "month_end_cash_usdt": "9869.049987542162322650000000",
+          "month_end_btc": "0.009306684"
+        },
+        "2024-06": {
+          "month_end_equity_usdt": "10482.694945811936221490000000",
+          "month_end_cash_usdt": "10482.694945811936221490000000",
+          "month_end_btc": "0E-9"
+        },
+        "2024-07": {
+          "month_end_equity_usdt": "10480.304876780856221490000000",
+          "month_end_cash_usdt": "9824.728397492856221490000000",
+          "month_end_btc": "0.010143846"
+        },
+        "2024-08": {
+          "month_end_equity_usdt": "10408.850122467510851030000000",
+          "month_end_cash_usdt": "9970.993723481190851030000000",
+          "month_end_btc": "0.007424568"
+        },
+        "2024-09": {
+          "month_end_equity_usdt": "10411.715013074337209990000000",
+          "month_end_cash_usdt": "9714.922426890597209990000000",
+          "month_end_btc": "0.011002986"
+        },
+        "2024-10": {
+          "month_end_equity_usdt": "10418.084482297389871610000000",
+          "month_end_cash_usdt": "9606.812974358919871610000000",
+          "month_end_btc": "0.011541447"
+        },
+        "2024-11": {
+          "month_end_equity_usdt": "10719.500681320449871610000000",
+          "month_end_cash_usdt": "9606.812974358919871610000000",
+          "month_end_btc": "0.011541447"
+        },
+        "2024-12": {
+          "month_end_equity_usdt": "10686.815418830919871610000000",
+          "month_end_cash_usdt": "9606.812974358919871610000000",
+          "month_end_btc": "0.011541447"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2023": {
+          "year_end_equity_usdt": "10181.480465284709740800000000",
+          "year_end_cash_usdt": "9195.779813324009740800000000",
+          "year_end_btc": "0.023311665",
+          "max_daily_drawdown_usdt": "108.985899929460259200000000"
+        },
+        "2024": {
+          "year_end_equity_usdt": "10686.815418830919871610000000",
+          "year_end_cash_usdt": "9606.812974358919871610000000",
+          "year_end_btc": "0.011541447",
+          "max_daily_drawdown_usdt": "323.336084876324761040000000"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "STRESS",
+        "quote_buy": "9900.00",
+        "btc_received": "0.3598639606161615469063941005556926341995",
+        "sell_fill": "93506.409990000000",
+        "final_cash": "33715.93745495801461047680101615880439960",
+        "net_pnl_usdt": "23715.93745495801461047680101615880439960",
+        "return_pct": "237.1593745495801461047680101615880439960"
+      }
+    }
+  ],
+  "comparison": {
+    "cash_hold_usdt": "10000",
+    "buy_and_hold_definition": "99% initial quote allocation at 00:01 with scenario costs; sell at last minute open"
+  },
+  "limitations": [
+    "January-June 2025 is an already researched period, not an independent validation.",
+    "July-December 2025 was not loaded or analyzed.",
+    "Historical Binance filters are not reconstructed; conditional tick/step values are recorded in run_config.",
+    "OHLCV cannot reconstruct bid/ask depth or intraminute order beyond the specified stop convention."
+  ]
+}

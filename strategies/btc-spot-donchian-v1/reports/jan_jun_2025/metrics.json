@@ -1,0 +1,266 @@
+{
+  "strategy": "BTC_SPOT_DONCHIAN_V1",
+  "period": {
+    "start": "2025-01-01T00:00:00",
+    "end": "2025-07-01T00:00:00"
+  },
+  "data_quality": {
+    "minute_count": 305280,
+    "minute_start": "2024-12-01T00:00:00Z",
+    "minute_end": "2025-06-30T23:59:00Z",
+    "duplicate_adjacent_count": 0,
+    "out_of_order_count": 0,
+    "missing_minute_count": 0,
+    "missing_minutes_sample": [],
+    "daily_count": 212,
+    "incomplete_utc_days": [],
+    "first_full_day": "2024-12-01",
+    "last_full_day": "2025-06-30"
+  },
+  "scenarios": [
+    {
+      "scenario": "DIAGNOSTIC_ZERO",
+      "trades": 2,
+      "signals": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": "0.5",
+      "mean_net_pnl_usdt": "9.50539268500000",
+      "sum_net_pnl_usdt": "19.01078537000000",
+      "profit_factor": "1.380241086819484418579208720433570570928",
+      "return_pct": "0.19010785370000",
+      "final_equity_usdt": "10019.01078537000000",
+      "max_drawdown_usdt": "97.72671168000000",
+      "max_daily_drawdown_usdt": "63.70689348000000",
+      "time_in_market_fraction": "0.2971263044812768569674647022713321055862",
+      "mean_r": "0.193575332041838217225945167457056437077",
+      "sum_r": "0.387150664083676434451890334914112874154",
+      "commission_buy_usdt_equivalent": "0E-14",
+      "commission_sell_usdt": "0E-14",
+      "exit_reasons": {
+        "LOWER_CHANNEL_EXIT": 1,
+        "STOP": 1
+      },
+      "cancel_reasons": {
+        "B_FALSE": 126,
+        "POSITION_OPEN": 53
+      },
+      "monthly_mark_to_market": {
+        "2025-01": {
+          "month_end_equity_usdt": "9988.01498008000000",
+          "month_end_cash_usdt": "9279.40728400000000",
+          "month_end_btc": "0.006918"
+        },
+        "2025-02": {
+          "month_end_equity_usdt": "9950.00333728000000",
+          "month_end_cash_usdt": "9950.00333728000000",
+          "month_end_btc": "0.000000"
+        },
+        "2025-03": {
+          "month_end_equity_usdt": "9950.00333728000000",
+          "month_end_cash_usdt": "9950.00333728000000",
+          "month_end_btc": "0.000000"
+        },
+        "2025-04": {
+          "month_end_equity_usdt": "9953.46226128000000",
+          "month_end_cash_usdt": "9331.83288928000000",
+          "month_end_btc": "0.006601"
+        },
+        "2025-05": {
+          "month_end_equity_usdt": "10019.01078537000000",
+          "month_end_cash_usdt": "10019.01078537000000",
+          "month_end_btc": "0.000000"
+        },
+        "2025-06": {
+          "month_end_equity_usdt": "10019.01078537000000",
+          "month_end_cash_usdt": "10019.01078537000000",
+          "month_end_btc": "0.000000"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2025": {
+          "year_end_equity_usdt": "10019.01078537000000",
+          "year_end_cash_usdt": "10019.01078537000000",
+          "year_end_btc": "0.000000",
+          "max_daily_drawdown_usdt": "63.70689348000000"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "DIAGNOSTIC_ZERO",
+        "quote_buy": "9900.00",
+        "btc_received": "0.1057568811676157901646741464912270394066",
+        "sell_fill": "107140.00000000",
+        "final_cash": "11430.79224829835575824318805507006500202",
+        "net_pnl_usdt": "1430.79224829835575824318805507006500202",
+        "return_pct": "14.30792248298355758243188055070065002020"
+      }
+    },
+    {
+      "scenario": "BASE",
+      "trades": 2,
+      "signals": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": "0.5",
+      "mean_net_pnl_usdt": "7.645325723991497126500000",
+      "sum_net_pnl_usdt": "15.290651447982994253000000",
+      "profit_factor": "1.305836982242587663208868973089720312530",
+      "return_pct": "0.152906514479829942530000",
+      "final_equity_usdt": "10015.290651447982994253000000",
+      "max_drawdown_usdt": "95.996974426258613304",
+      "max_daily_drawdown_usdt": "62.826816917128613304",
+      "time_in_market_fraction": "0.2971263044812768569674647022713321055862",
+      "mean_r": "0.1561869967134381361040436279284409102185",
+      "sum_r": "0.312373993426876272208087255856881820437",
+      "commission_buy_usdt_equivalent": "1.296693505294173000000",
+      "commission_sell_usdt": "1.313297518369752747000000",
+      "exit_reasons": {
+        "LOWER_CHANNEL_EXIT": 1,
+        "STOP": 1
+      },
+      "cancel_reasons": {
+        "B_FALSE": 126,
+        "POSITION_OPEN": 53
+      },
+      "monthly_mark_to_market": {
+        "2025-01": {
+          "month_end_equity_usdt": "9987.528732336720000000",
+          "month_end_cash_usdt": "9303.676519606200000000",
+          "month_end_btc": "0.006676317"
+        },
+        "2025-02": {
+          "month_end_equity_usdt": "9950.003916021331386696",
+          "month_end_cash_usdt": "9950.003916021331386696",
+          "month_end_btc": "0E-9"
+        },
+        "2025-03": {
+          "month_end_equity_usdt": "9950.003916021331386696",
+          "month_end_cash_usdt": "9950.003916021331386696",
+          "month_end_btc": "0E-9"
+        },
+        "2025-04": {
+          "month_end_equity_usdt": "9952.578626663731386696",
+          "month_end_cash_usdt": "9349.633827011731386696",
+          "month_end_btc": "0.006402591"
+        },
+        "2025-05": {
+          "month_end_equity_usdt": "10015.290651447982994253000000",
+          "month_end_cash_usdt": "10015.290651447982994253000000",
+          "month_end_btc": "0E-9"
+        },
+        "2025-06": {
+          "month_end_equity_usdt": "10015.290651447982994253000000",
+          "month_end_cash_usdt": "10015.290651447982994253000000",
+          "month_end_btc": "0E-9"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2025": {
+          "year_end_equity_usdt": "10015.290651447982994253000000",
+          "year_end_cash_usdt": "10015.290651447982994253000000",
+          "year_end_btc": "0E-9",
+          "max_daily_drawdown_usdt": "62.826816917128613304"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "BASE",
+        "quote_buy": "9900.00",
+        "btc_received": "0.1056194384549117008642501972855501473231",
+        "sell_fill": "107107.858000000000",
+        "final_cash": "11401.35914425235343684788081992535794073",
+        "net_pnl_usdt": "1401.35914425235343684788081992535794073",
+        "return_pct": "14.01359144252353436847880819925357940730"
+      }
+    },
+    {
+      "scenario": "STRESS",
+      "trades": 2,
+      "signals": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": "0.5",
+      "mean_net_pnl_usdt": "6.688551509751235385000000",
+      "sum_net_pnl_usdt": "13.377103019502470770000000",
+      "profit_factor": "1.267550311167115700661266317932409584091",
+      "return_pct": "0.133771030195024707700000",
+      "final_equity_usdt": "10013.377103019502470770000000",
+      "max_drawdown_usdt": "95.120978817180537600",
+      "max_daily_drawdown_usdt": "62.529433127040537600",
+      "time_in_market_fraction": "0.2971263044812768569674647022713321055862",
+      "mean_r": "0.1369556330541971506899950716359222762715",
+      "sum_r": "0.273911266108394301379990143271844552543",
+      "commission_buy_usdt_equivalent": "1.275214533522930000000",
+      "commission_sell_usdt": "1.289881581256759230000000",
+      "exit_reasons": {
+        "LOWER_CHANNEL_EXIT": 1,
+        "STOP": 1
+      },
+      "cancel_reasons": {
+        "B_FALSE": 126,
+        "POSITION_OPEN": 53
+      },
+      "monthly_mark_to_market": {
+        "2025-01": {
+          "month_end_equity_usdt": "9987.279952966400000000",
+          "month_end_cash_usdt": "9316.013977280000000000",
+          "month_end_btc": "0.006553440"
+        },
+        "2025-02": {
+          "month_end_equity_usdt": "9950.001541911319462400",
+          "month_end_cash_usdt": "9950.001541911319462400",
+          "month_end_btc": "0E-9"
+        },
+        "2025-03": {
+          "month_end_equity_usdt": "9950.001541911319462400",
+          "month_end_cash_usdt": "9950.001541911319462400",
+          "month_end_btc": "0E-9"
+        },
+        "2025-04": {
+          "month_end_equity_usdt": "9952.121829171319462400",
+          "month_end_cash_usdt": "9358.772967975319462400",
+          "month_end_btc": "0.006300693"
+        },
+        "2025-05": {
+          "month_end_equity_usdt": "10013.377103019502470770000000",
+          "month_end_cash_usdt": "10013.377103019502470770000000",
+          "month_end_btc": "0E-9"
+        },
+        "2025-06": {
+          "month_end_equity_usdt": "10013.377103019502470770000000",
+          "month_end_cash_usdt": "10013.377103019502470770000000",
+          "month_end_btc": "0E-9"
+        }
+      },
+      "yearly_mark_to_market": {
+        "2025": {
+          "year_end_equity_usdt": "10013.377103019502470770000000",
+          "year_end_cash_usdt": "10013.377103019502470770000000",
+          "year_end_btc": "0E-9",
+          "max_daily_drawdown_usdt": "62.529433127040537600"
+        }
+      },
+      "buy_and_hold": {
+        "status": "COMPLETE",
+        "scenario": "STRESS",
+        "quote_buy": "9900.00",
+        "btc_received": "0.1055455787077404339405689034412945178494",
+        "sell_fill": "107032.860000000000",
+        "final_cash": "11385.54830429511821951785960262320875339",
+        "net_pnl_usdt": "1385.54830429511821951785960262320875339",
+        "return_pct": "13.85548304295118219517859602623208753390"
+      }
+    }
+  ],
+  "comparison": {
+    "cash_hold_usdt": "10000",
+    "buy_and_hold_definition": "99% initial quote allocation at 00:01 with scenario costs; sell at last minute open"
+  },
+  "limitations": [
+    "January-June 2025 is an already researched period, not an independent validation.",
+    "July-December 2025 was not loaded or analyzed.",
+    "Historical Binance filters are not reconstructed; conditional tick/step values are recorded in run_config.",
+    "OHLCV cannot reconstruct bid/ask depth or intraminute order beyond the specified stop convention."
+  ]
+}

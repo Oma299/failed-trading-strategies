@@ -1,0 +1,17 @@
+{
+  "minutes": {
+    "row_count": 305280,
+    "start": "2024-12-01T00:00:00+00:00",
+    "end": "2025-06-30T23:59:00+00:00",
+    "duplicate_timestamps": [],
+    "out_of_order_pairs": 0,
+    "missing_minute_count": 0,
+    "missing_by_day": {},
+    "numeric_errors": [],
+    "negative_volume_rows": []
+  },
+  "hourly_count": 5088,
+  "first_hour": "2024-12-01T00:00:00Z",
+  "last_hour": "2025-06-30T23:00:00Z",
+  "first_full_30_day_history": "2024-12-31T11:00:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "ADVERSE",
+  "status": "OK",
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "exit_reasons": "{}",
+  "return_nav_pct": "0E-12",
+  "realized_pnl_usdt": "0",
+  "terminal_status": "NONE",
+  "terminal_btc": "0",
+  "profit_factor": "",
+  "mean_trade_r": "",
+  "median_hold_hours": "",
+  "max_daily_drawdown_usdt": "0",
+  "entry_count": 0,
+  "cancel_count": 0,
+  "commission_buy_btc": "0",
+  "commission_sell_usdt": "0"
+}

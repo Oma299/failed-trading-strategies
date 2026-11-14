@@ -1,0 +1,14 @@
+{
+  "focused_tests": "7/7 OK",
+  "full_regression": "129/129 OK",
+  "historical_time_exit_count_base": 0,
+  "right_censored_base": 2,
+  "deferred": [
+    "tail stop slippage +25/+50bp",
+    "signal delays +3/+5 minutes",
+    "six neighboring configurations",
+    "5000-block bootstrap",
+    "Jul-Dec 2025 final period",
+    "live and partial-fill replay"
+  ]
+}

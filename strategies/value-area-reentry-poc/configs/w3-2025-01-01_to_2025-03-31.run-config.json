@@ -1,0 +1,25 @@
+{
+  "hours": "data/processed/btcusdt_1h_2024-12_2025-03.csv",
+  "minutes": "data/processed/btcusdt_1m_2024-12_2025-03.csv",
+  "profiles": "data/processed/aggtrades_jan_mar_combined/daily_profiles.csv",
+  "period_start": "2025-01-01T00:00:00Z",
+  "period_end_exclusive": "2025-04-01T00:00:00Z",
+  "profile_source": "binance_spot_aggtrades",
+  "profile_method": "aggtrades",
+  "max_return_bars": 3,
+  "profit_lock": {
+    "name": "baseline",
+    "enabled": false,
+    "reason_labels": true
+  },
+  "config_fingerprint": "ac0f1af83619bef3a1f0a49cabd15c042aaefdaef7852ddc96d4daa221ebeb75",
+  "model": {
+    "buy_slippage": "0.0002",
+    "sell_slippage": "0.0002",
+    "commission": "0.001",
+    "risk_fraction": "0.005",
+    "initial_capital": "1000",
+    "max_holding_hours": 24,
+    "min_notional_and_step_size": "not modeled"
+  }
+}

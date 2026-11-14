@@ -1,0 +1,7 @@
+# SHA-256 values for the staged copies. The strategy specification has a
+# staging-only dead-link correction documented in README.md.
+03e85eccc10cd0882cbd57ff1bed9202504831abb43c51b84a60892685c0ba68  src/vp_bot/btc_spot_trend_pullback_v1.py
+b5e65f09fdfd58986cd0820a27ed10f74e1e8b61807dc7dce7f63c3be4eedfa3  src/vp_bot/run_btc_spot_trend_pullback_v1.py
+902873138fd29d6f5de28efbe82dc0f832f4ac1f1e98bc76463f5394b53b28e9  tests/test_btc_spot_trend_pullback_v1.py
+f82a71fe2174e1ae8fd606bf6913ff04b7b6967ca6d6e828b6fd099e63d5436b  configs/first-stage-run_config.json
+8a56c8dc12371f6397a437826288b01b5c094d78e0cf1d8b3967c0f59ebc0532  docs/HISTORICAL_STRATEGY_SPEC.md

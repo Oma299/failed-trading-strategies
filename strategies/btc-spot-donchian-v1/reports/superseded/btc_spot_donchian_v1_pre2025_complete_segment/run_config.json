@@ -1,0 +1,48 @@
+{
+  "strategy": "BTC_SPOT_DONCHIAN_V1",
+  "symbol": "BTCUSDT",
+  "spot": "LONG only, no leverage, no shorts, no pyramiding",
+  "data_file": "data/processed/btcusdt_1m_2017-08_2025-06.csv",
+  "data_sha256": "d9c967f8bc9ede26ce34f0b36bf636dbae1da534300e194de914ee050b9ab302",
+  "period_start_utc": "2023-03-25T00:00:00",
+  "period_end_utc": "2025-01-01T00:00:00",
+  "warmup": "All rows before the requested period are warmup only; signals require 20 complete prior days and ATR20 including the current complete day; no July-December 2025 data",
+  "initial_cash_usdt": "10000",
+  "signal": "D1 UTC; U=max high previous 20 complete days; D=min low previous 10 complete days; ATR=SMA20 TR including current day; B=close>U; entry only B false to true",
+  "entry": "P=00:00 close, V=00:00 base volume, execute 00:01 open with a",
+  "exit": "fixed S0 or close<D planned for next day 00:01 or 60*24h or END_OF_TEST; no take-profit",
+  "filters": {
+    "tick_size": "0.01",
+    "step_size": "0.000001",
+    "min_qty": "0",
+    "max_qty": "Infinity",
+    "min_notional": "0",
+    "note": "conditional model values, not reconstructed historical Binance filters"
+  },
+  "scenarios": [
+    {
+      "name": "DIAGNOSTIC_ZERO",
+      "fee_buy": "0",
+      "fee_sell": "0",
+      "half_spread": "0",
+      "extra_slippage": "0",
+      "a": "0"
+    },
+    {
+      "name": "BASE",
+      "fee_buy": "0.001",
+      "fee_sell": "0.001",
+      "half_spread": "0.0001",
+      "extra_slippage": "0.0002",
+      "a": "0.0003"
+    },
+    {
+      "name": "STRESS",
+      "fee_buy": "0.001",
+      "fee_sell": "0.001",
+      "half_spread": "0.0002",
+      "extra_slippage": "0.0008",
+      "a": "0.0010"
+    }
+  ]
+}

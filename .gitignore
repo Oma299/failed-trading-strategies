@@ -1,0 +1,9 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+*.zip
+*.parquet
+*.f64
+data/

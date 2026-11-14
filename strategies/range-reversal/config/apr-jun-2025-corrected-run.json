@@ -1,0 +1,31 @@
+{
+  "strategy": "range_reversal_v2_delayed_N3_mode_A",
+  "period_start_local": "2025-04-01",
+  "period_end_local": "2025-06-30",
+  "minutes": "data/processed/btcusdt_1m_2025-03_2025-06.csv",
+  "confirmation": "N3; exact existing reset/opposite-boundary/missing-M5/local-midnight rules",
+  "entry": "E3 open after third consecutive inside close",
+  "stop": "BREAKOUT_EXTREMUM_FIRST_RETURN",
+  "target": "fixed 2R from actual E3 entry fill",
+  "commission_per_side": "0",
+  "adverse_slippage_per_side": "0.0002",
+  "filter": {
+    "formula": "(range_upper - range_lower) / E3 entry_fill * 100",
+    "range_width_price_pct_units": "percent",
+    "range_width_price_pct_max": "1.246290688786655202027240847",
+    "breakout_to_e3_min_max": "50",
+    "known_at": "E3"
+  },
+  "daily_policy": "one detector episode per local day; filter rejection cannot search for another signal",
+  "short_model": "hypothetical price model on Spot OHLCV; no borrowing/funding/short account",
+  "source_data": "official Binance Spot monthly klines; March included only as prehistory; July-December not opened",
+  "counts": {
+    "complete_days": 90,
+    "skipped_days": 1,
+    "episodes": 93,
+    "n3_signals": 83,
+    "baseline_eligible": 68,
+    "filtered_accepted": 32,
+    "excluded": 36
+  }
+}

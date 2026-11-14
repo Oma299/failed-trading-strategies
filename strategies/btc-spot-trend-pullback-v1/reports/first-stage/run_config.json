@@ -1,0 +1,53 @@
+{
+  "strategy": "BTC_SPOT_TREND_PULLBACK_V1",
+  "source": "data/processed/btcusdt_1m_2017-08_2025-06_recovered.csv",
+  "source_sha256": "107dbed16cb59afff62b215d660d78632bbf2f396db0e0c0b573735bdf79f86b",
+  "runner_sha256": "b5e65f09fdfd58986cd0820a27ed10f74e1e8b61807dc7dce7f63c3be4eedfa3",
+  "cutoff": "2025-07-01T00:00:00Z",
+  "warmup_h4": 300,
+  "capital_usdt": "10000",
+  "risk": "0.5%",
+  "filters_assumption": "tickSize=0.01, stepSize=0.000001, minQty/minNotional=0; historical exchangeInfo unavailable; values are modelling assumptions, not reconstructed Binance filters",
+  "scenarios": [
+    {
+      "name": "ZERO",
+      "fee": "0",
+      "full_spread": "0",
+      "slippage": "0"
+    },
+    {
+      "name": "FEE_ONLY",
+      "fee": "0.001",
+      "full_spread": "0",
+      "slippage": "0"
+    },
+    {
+      "name": "BASE",
+      "fee": "0.001",
+      "full_spread": "0.0001",
+      "slippage": "0.0002"
+    },
+    {
+      "name": "ADVERSE",
+      "fee": "0.001",
+      "full_spread": "0.0002",
+      "slippage": "0.0005"
+    },
+    {
+      "name": "STRESS",
+      "fee": "0.0015",
+      "full_spread": "0.0005",
+      "slippage": "0.001"
+    }
+  ],
+  "unrun_document_stages": [
+    "tail-stop slippage +25/+50bp",
+    "signal delays +3/+5 minutes",
+    "six one-at-a-time neighbors",
+    "5000-block bootstrap",
+    "closed Jul-Dec 2025 final period",
+    "live/partial-fill replay"
+  ],
+  "module_sha256": "e82ee0ccef03e7389d43a9411d8642bcef3545f027aba7ed87c50fda33594a05",
+  "audit_sha256": "dc27d6383ba95006a7017c5006ae4aff8b1dceb255b74bc3b57e79f788a3fca8"
+}

@@ -1,0 +1,7 @@
+{
+  "strategy": "BTC_SPOT_DONCHIAN_V1",
+  "input": "data/processed/btcusdt_1m_2017-08_2025-06_recovered.csv",
+  "period_end": "2025-01-01T00:00:00",
+  "method": "Each maximal run of consecutive complete UTC days is run separately; no PnL is concatenated; segments shorter than 21 days are inventory-only.",
+  "synthetic_rows_added": 0
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "BASE",
+  "status": "OK",
+  "trades": 89,
+  "wins": 40,
+  "losses": 49,
+  "exit_reasons": "{\"REGIME_EXIT\": 1, \"RSI_EXIT\": 76, \"STOP\": 12}",
+  "return_nav_pct": "-4.3023076307123410750000",
+  "realized_pnl_usdt": "-430.2307630712341075000000",
+  "terminal_status": "NONE",
+  "terminal_btc": "0.000000",
+  "profit_factor": "0.4788930219445265993175495830497960822162",
+  "mean_trade_r": "-0.09837087391748052196458578115600015567972",
+  "median_hold_hours": "3.0",
+  "max_daily_drawdown_usdt": "470.6979984231455700000000",
+  "entry_count": 89,
+  "cancel_count": 1,
+  "commission_buy_btc": "0.003525848",
+  "commission_sell_usdt": "350.8401175711866075000000"
+}

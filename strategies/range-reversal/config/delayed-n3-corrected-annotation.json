@@ -1,0 +1,15 @@
+{
+  "strategy": "range_reversal_delayed_entry_fixed_n1_target_corrected",
+  "source": "range_reversal_v2_N3",
+  "minutes": "data/processed/btcusdt_1m_2024-12_2025-03.csv",
+  "signals": "reports/range_reversal_v2_N3/signals.csv",
+  "superseded_dir": "reports/range_reversal_delayed_N3_superseded",
+  "stop_variants": [
+    "BREAKOUT_EXTREMUM_FIRST_RETURN",
+    "LOCAL_PIVOT_2X2"
+  ],
+  "target": "fixed from initial first return E1 using 2R price plan; not recalculated from E3",
+  "pre_entry_check": "existing minute data E1 inclusive through E3 exclusive, including all N3 resets",
+  "portfolio_backtest": false,
+  "lookahead_policy": "initial first return is immutable; stop known at its close; local pivot known at right-side second completed M5 bar; no post-E3 cancellation"
+}

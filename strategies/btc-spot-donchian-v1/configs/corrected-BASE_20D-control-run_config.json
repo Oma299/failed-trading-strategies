@@ -1,0 +1,9 @@
+{
+  "strategy": "BTC_SPOT_DONCHIAN_DAILY_REARM",
+  "control": "BASE_20D",
+  "variant": "DAILY_REARM",
+  "only_change": "remove B_(t-1)=False gate; one attempt per daily close; canceled attempt expires; exit priority",
+  "input": "data/processed/btcusdt_1m_2017-08_2025-06_recovered.csv",
+  "periods": "all prior qualifying segments plus Jan-Jun 2025; July-Dec 2025 excluded",
+  "scenarios": "same ZERO/BASE/STRESS; same observations, not independent samples"
+}

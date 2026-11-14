@@ -1,0 +1,13 @@
+{
+  "minute_count": 305280,
+  "minute_start": "2024-12-01T00:00:00Z",
+  "minute_end": "2025-06-30T23:59:00Z",
+  "duplicate_adjacent_count": 0,
+  "out_of_order_count": 0,
+  "missing_minute_count": 0,
+  "missing_minutes_sample": [],
+  "daily_count": 212,
+  "incomplete_utc_days": [],
+  "first_full_day": "2024-12-01",
+  "last_full_day": "2025-06-30"
+}

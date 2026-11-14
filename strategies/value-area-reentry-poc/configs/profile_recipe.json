@@ -1,0 +1,14 @@
+{
+  "symbol": "BTCUSDT",
+  "market": "Binance Spot",
+  "profile_source": "binance_spot_aggtrades",
+  "profile_method": "aggtrades",
+  "profile_period": "previous complete UTC day",
+  "price_bins": 100,
+  "value_area_fraction": "0.70",
+  "binning": "trade quantity assigned to the bin containing each exact aggTrade price",
+  "profile_days_for_w3": {
+    "start_inclusive": "2024-12-31",
+    "end_inclusive": "2025-03-30"
+  }
+}

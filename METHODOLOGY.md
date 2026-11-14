@@ -1,4 +1,4 @@
-# Methodology
+# Research Methodology
 
 - Define the hypothesis, asset universe, data period, execution rules, thresholds,
   and decision matrix before a run. Do not tune them after viewing results.
@@ -15,12 +15,43 @@
   or recalculate metrics after viewing them.
 - Raw market data and trade-block CSVs are excluded from this public archive.
 
-Strategy documentation:
+## Evidence and run records
 
-- [BTC Spot TSMOM V0](./strategies/btc-tsmom-v0/README.md)
-- [Multi-asset TSMOM V1](./strategies/multi-asset-tsmom-v1/README.md)
-- [Attempt ledger](./ledger.csv)
-- [Project data notes](./data_notes.md)
-- [Lessons](./docs/LESSONS.md)
-- [Glossary](./docs/GLOSSARY.md)
-- [Timeline](./docs/TIMELINE.md)
+- Separate signal candidates, event-study observations, planned trades, and
+  executed simulated trades. Never label event counts as executed trades.
+- Quote metrics from saved reports or machine-readable result files. Do not
+  recompute, combine, or silently replace historical results during packaging.
+- Keep each run's strategy version, configuration, data period, execution
+  assumptions, source report, and available hashes together.
+- Mark invalidated or superseded attempts explicitly and retain their history;
+  identify the corrected run used for current reporting.
+- Use `N/A` when a metric was not recorded. Do not infer a verdict from a
+  strategy name or from a small sample alone.
+
+## Comparability
+
+Results from different periods, position models, fee assumptions, or execution
+rules are not directly comparable. Present variants separately and explain
+the difference. In particular, diagnostic zero-cost results are not net
+trading results, and disjoint time segments are not one compounded portfolio
+unless the source study explicitly modeled that portfolio.
+
+## Reproducibility
+
+Each strategy package documents its exact historical configuration and
+reproduction command. Reproduction requires the matching external market data;
+the archive intentionally does not distribute raw market datasets. Historical
+experiments are not rerun merely to prepare this archive.
+
+## Research integrity
+
+Preserve the implementation and historical parameter settings. Any packaging
+adaptation must be documented and limited to path/import changes needed to run
+the archived copy. Do not optimize rules or revise old results to improve
+reported performance.
+
+## Safety and scope
+
+This archive contains historical research only. It does not include credentials
+or authorize exchange access, paper orders, or live orders. Short-side Spot
+price studies do not imply that short execution is available on Binance Spot.
